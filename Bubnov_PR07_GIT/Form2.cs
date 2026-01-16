@@ -26,5 +26,10 @@ namespace Bubnov_PR07_GIT
         {
             label3.Text = DateTime.Now.ToString();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Бубнов Н.В.");
+        }
     }
 }
